@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+/* ===========================
+   THEME
+=========================== */
+
+:root {
+  --bg: #0F172A;
+  --card: #1E293B;
+
+  --primary: #8B5CF6;
+  --secondary: #3B82F6;
+
+  --text: #F8FAFC;
+  --text-light: #CBD5E1;
+  --text-muted: #94A3B8;
+
+  --border: #334155;
+}
+
+/* ===========================
+   RESET
+=========================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ===========================
+   GLOBAL SECTIONS
+=========================== */
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px;
+}
+
+.section-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--text);
+}
+
+p {
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+/* ===========================
+   GLASS CARD
+=========================== */
+
+.glass-card {
+  background: rgba(30, 41, 59, 0.75);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+}
+
+/* ===========================
+   PROFILE IMAGE
+=========================== */
+
+.profile-ai {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 24px;
+  border: 3px solid rgba(139, 92, 246, 0.4);
+  box-shadow:
+    0 0 40px rgba(139, 92, 246, 0.25),
+    0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+/* ===========================
+   AI BACKGROUND
+=========================== */
+
+.ai-bg {
+  background:
+    radial-gradient(circle at top left,
+      rgba(139,92,246,.15),
+      transparent 40%),
+    radial-gradient(circle at bottom right,
+      rgba(59,130,246,.15),
+      transparent 40%);
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.primary-btn {
+  background: linear-gradient(
+    135deg,
+    var(--primary),
+    var(--secondary)
+  );
+
+  color: white;
+
+  padding: 14px 28px;
+
+  border-radius: 14px;
+
+  font-weight: 600;
+
+  transition: .3s;
+
+  text-decoration: none;
+}
+
+.primary-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(139,92,246,.35);
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 768px) {
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .profile-ai {
+    width: 220px;
+    height: 220px;
+  }
+
+}
