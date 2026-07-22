@@ -56,7 +56,7 @@ function About() {
       <div className="stats-container">
 
         <div className="stat-card">
-          <h3>80+</h3>
+          <h3>200+</h3>
           <span>LeetCode</span>
         </div>
 
