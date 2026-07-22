@@ -30,7 +30,7 @@ const experiences = [
 
     company: "DheeCoding Lab",
 
-    duration: "2025 - 2026",
+    duration: "Feb 2025 - May 2026",
 
     points: [
       "Completed Python Full Stack Development training covering frontend, backend and database concepts.",
