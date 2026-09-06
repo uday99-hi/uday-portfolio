@@ -56,7 +56,7 @@ function Hero() {
 
 
             <a
-              href="/Uday_Resume.pdf"
+              href="Uday_ResumeAug.pdf"
               target="_blank"
               rel="noreferrer"
             >
