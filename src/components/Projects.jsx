@@ -49,7 +49,7 @@ const projects = [
   {
     title: "Crop Price Prediction",
 
-    image: "/images/crop.png",
+    image: "/images/Crop price.png",
 
     description:
       "Built a machine learning model using Random Forest to forecast crop prices. Applied feature engineering techniques and deployed the model using Flask.",
