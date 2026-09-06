@@ -28,21 +28,20 @@ const projects = [
 
 
   {
-    title: "Digital Marketplace for Farmers",
+    title: "Smart EV Charging Intelligence Platform ",
 
-    image: "/images/farmer.png",
+    image: "/images/EV Station1.png",
 
-    description:
-      "Designed and developed a full-stack e-commerce platform enabling farmers to list products, manage orders, and connect directly with buyers.",
+    description:"The project simulates data from multiple EV charging stations, sends the data to a FastAPI backend, stores it in PostgreSQL and uses Machine Learning to identify unusual charging behavior. The processed data is then visualized using Power BI.",
 
     tech: [
       "Python",
-      "Django",
-      "React.js",
-      "MySQL"
+      "FastAPI",
+      "PostgreSQL",
+      "Power BI",
+      "Machine Learning"
     ],
-
-    github: null
+    github: "https://github.com/uday99-hi/-Smart-EV-Charging-Platform"
 
   },
 

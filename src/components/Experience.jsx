@@ -20,7 +20,7 @@ const experiences = [
     icon: <FaLaptopCode />,
     role: "Python Full Stack Developer Training",
     company: "DheeCoding Lab",
-    duration: "Feb 2025 - May 2026",
+    duration: "Feb 2026 - May 2026",
     certificate: "/Dhee_Coding_Lab_Certificate.pdf",
     points: [
       "Completed Python Full Stack Development training covering frontend, backend and database concepts.",
